@@ -74,11 +74,11 @@ namespace Implementation.Configuration
             {
                 if (prize.IsFixedTicketCount)
                 {
-                    Console.WriteLine($"  {prize.Name}: {prize.FixedTicketCount} ticket(s) win {prize.RevenuePercentage:P0} of revenue");
+                    Console.WriteLine($"  {prize.Name}: {prize.FixedTicketCount} ticket(s) win {prize.RevenuePercentage}% of revenue");
                 }
                 else
                 {
-                    Console.WriteLine($"  {prize.Name}: {prize.TicketPercentage:P0} of tickets share {prize.RevenuePercentage:P0} of revenue");
+                    Console.WriteLine($"  {prize.Name}: {prize.TicketPercentage}% of tickets share {prize.RevenuePercentage}% of revenue");
                 }
             }
             Console.WriteLine();
